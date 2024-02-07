@@ -1,0 +1,42 @@
+body {
+    background-image: url('https://i.pinimg.com/550x/f3/8b/24/f38b241cfded32d47438887ed01a4c37.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration-color: #FFF;
+    color: #FFF;
+    
+}
+
+h1 {
+    color: #ffee05dc;
+}
+
+form {
+    max-width: 100px;
+    margin: 0 auto;
+    
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #04ec2b;
+    color: #FFF;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+#resultado {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(238, 255, 3);
+    text-align: start;
+    text-decoration:solid ;
+}
