@@ -33,3 +33,17 @@ document.getElementById("resultado").innerHTML = `
 <p>Valor com desconto: R$ ${valorComDesconto.toFixed(2)}</p>
 `;
 }
+
+/*
+Aqui estão as explicações para cada parte do código:
+
+aplicarDesconto(valorTotal, diaDaSemana): Esta função recebe o valor total das compras e o dia da semana (representado por um número, onde 0 é domingo, 1 é segunda-feira, etc.).
+Ela verifica se o dia é quarta-feira (diaDaSemana === 3) ou segunda-feira (diaDaSemana === 1) e aplica o desconto correspondente.
+Caso contrário, retorna o valor total sem desconto.
+
+calcularCompras(): Esta função é chamada quando o botão “Calcular” é clicado.
+Ela obtém os valores dos campos de entrada (nome, quantidade de carne de boi, carne de frango, linguiça e dia da semana),
+calcula o valor total das compras e aplica o desconto usando a função aplicarDesconto(). Em seguida, exibe os resultados na página.
+
+Variáveis de preço: As variáveis precoCarneBoi, precoCarneFrango e precoLinguica armazenam os preços unitários para cada tipo de carne.
+*/

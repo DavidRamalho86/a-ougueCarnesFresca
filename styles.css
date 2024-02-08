@@ -1,3 +1,4 @@
+/* Define o estilo para o corpo da página */
 body {
     background-image: url('https://i.pinimg.com/550x/f3/8b/24/f38b241cfded32d47438887ed01a4c37.jpg');
     font-family: Arial, Helvetica, sans-serif;
@@ -8,24 +9,26 @@ body {
     background-size: cover;
     text-decoration-color: #FFF;
     color: #FFF;
-    
 }
 
+/* Estilo para os títulos h1 */
 h1 {
     color: #ffee05dc;
 }
 
+/* Estilo para o formulário */
 form {
     max-width: 100px;
     margin: 0 auto;
-    
 }
 
+/* Estilo para rótulos e campos de entrada */
 label, input {
     display: block;
     margin-bottom: 10px;
 }
 
+/* Estilo para o botão */
 button {
     background-color: #04ec2b;
     color: #FFF;
@@ -34,9 +37,28 @@ button {
     cursor: pointer;
 }
 
+/* Estilo para o elemento com id "resultado" */
 #resultado {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(238, 255, 3);
     text-align: start;
-    text-decoration:solid ;
+    text-decoration: solid;
 }
+
+/*
+Aqui estão as explicações para cada parte do código:
+
+body: Define o estilo para o corpo da página. A imagem de fundo é definida usando a URL fornecida. A fonte padrão é Arial, e o texto é alinhado à esquerda.
+As margens e o preenchimento são removidos, e a imagem de fundo não se repete. A cor do texto é branca (#FFF).
+
+h1: Define o estilo para os títulos de nível 1 (h1). A cor do texto é um tom de rosa (#ffee05dc).
+
+form: Define o estilo para o formulário. O formulário tem uma largura máxima de 100 pixels e é centralizado horizontalmente.
+
+label e input: Define o estilo para os rótulos e campos de entrada. Eles são exibidos como blocos e têm uma margem inferior de 10 pixels.
+
+button: Define o estilo para o botão. O botão tem uma cor de fundo verde (#04ec2b), texto branco (#FFF), borda nula e preenchimento de 10 pixels.
+
+#resultado: Define o estilo para o elemento com o ID “resultado”. A fonte é Impact, Haettenschweiler, ou ‘Arial Narrow Bold’,
+ e a cor do texto é um amarelo brilhante (rgb(238, 255, 3)). O texto é alinhado à esquerda e tem uma decoração sólida
+*/
