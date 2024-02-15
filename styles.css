@@ -8,12 +8,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-decoration-color: #FFF;
-    color: #FFF;
+    color: #020202;
 }
 
 /* Estilo para os títulos h1 */
 h1 {
-    color: #ffee05dc;
+    color: #ff6905dc;
 }
 
 /* Estilo para o formulário */
@@ -40,7 +40,7 @@ button {
 /* Estilo para o elemento com id "resultado" */
 #resultado {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(238, 255, 3);
+    color: rgb(10, 0, 0);
     text-align: start;
     text-decoration: solid;
 }
